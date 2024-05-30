@@ -2,16 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 8</title>
-    <link rel="stylesheet" href="css/common.css" />
+    <title>Homework 10</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="/src/index.js" type="module"></script>
   </head>
   <body>
-    <ul>
-      <li><a href="01-gallery.html">Image gallery</a></li>
-      <li><a href="02-video.html">Video playback</a></li>
-      <li><a href="03-feedback.html">Feedback form</a></li>
-    </ul>
+    <div class="container">
+      <select id="single" class="breed-select unvisible"></select>
+      <p class="loader unvisible"></p>
+      <p class="error unvisible">
+        Oops! Something went wrong! Try reloading the page!
+      </p>
+      <div class="cat-info">
+        <div class="cat-info-pict"></div>
+        <div class="cat-info-desc"></div>
+      </div>
+    </div>
   </body>
 </html>
